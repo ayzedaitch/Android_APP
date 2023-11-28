@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "269610586932",
+    "project_id": "myloginapp-4d790",
+    "storage_bucket": "myloginapp-4d790.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269610586932:android:934fd07b5a837dbd054b61",
+        "android_client_info": {
+          "package_name": "ma.ensaf.mylogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGdvz7OKiNe_mq0-rW320kpfwP-vDsaJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
