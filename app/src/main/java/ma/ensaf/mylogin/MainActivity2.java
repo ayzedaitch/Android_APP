@@ -77,6 +77,7 @@ public class MainActivity2 extends AppCompatActivity {
                     FirebaseAuth.getInstance().signOut();
                     Intent i = new Intent(MainActivity2.this,MainActivity.class);
                     startActivity(i);
+                    finish();
                     return true;
                 } else if (itemId == R.id.share) {
                     Toast.makeText(getApplicationContext(), "Share", Toast.LENGTH_SHORT).show();
