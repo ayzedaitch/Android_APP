@@ -85,6 +85,13 @@ public class MainActivity2 extends AppCompatActivity {
                 } else if (itemId == R.id.rateUs) {
                     Toast.makeText(getApplicationContext(), "Rate Us", Toast.LENGTH_SHORT).show();
                     return true;
+                } else if (itemId == R.id.temperature){
+                    Toast.makeText(getApplicationContext(), "Temperature Converter", Toast.LENGTH_SHORT).show();
+
+                        Intent intent = new Intent(MainActivity2.this, TemperatureActivity.class);
+                        startActivity(intent);
+                } else if (itemId == R.id.currency){
+                    Toast.makeText(getApplicationContext(), "Currency Exchange", Toast.LENGTH_SHORT).show();
                 }
                 return false;
             }
